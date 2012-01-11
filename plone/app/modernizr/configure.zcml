@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone.app.modernizr">
+
+  <browser:resourceDirectory
+    name="plone.app.modernizr"
+    directory="resources"
+    />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="plone.app.modernizr"
+      directory="profiles/default"
+      description='Extension profile for plone.app.modernizr.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
