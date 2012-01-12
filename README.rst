@@ -1,7 +1,7 @@
 Introduction
 ============
 
-This addon register Modernizr into Plone's resource registry
+This addon register Modernizr_ into Plone's resource registry
 
 version: 2.0.4
 
@@ -21,3 +21,4 @@ If not, the class name will be "no-cssgradients". This allows for simple
 if-conditionals in your CSS, giving you fine control over the look & feel of
 your website.
 
+.. _modernizr: http://www.modernizr.com
