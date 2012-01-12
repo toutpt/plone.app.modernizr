@@ -1,6 +1,0 @@
-<layers>
-<!-- uncomment to activate
-    <layer name="plone.app.modernizr"
-           interface="plone.app.modernizr.interfaces.ILayer" />
--->
-</layers>
