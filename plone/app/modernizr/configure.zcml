@@ -17,4 +17,13 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:upgradeStep
+      source="*"
+      destination="1000"
+      title="Remove modernizr from 3rdParty registred in portal_javascripts"
+      description=""
+      profile="plone.app.modernizr:default"
+      handler=".upgrades.remove_plone3rdParty_modernizr"
+      />
+
 </configure>

@@ -3,4 +3,7 @@
 
  <javascript id="++resource++plone.app.modernizr/modernizr.js"/>
 
+ <!-- at the moment, just unactivate it, will be deleted by upgrade step -->
+ <javascript id="modernizr.js" enabled="false"/>
+
 </object>
