@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '2.0.4.0'
 
 setup(name='plone.app.modernizr',
       version=version,
